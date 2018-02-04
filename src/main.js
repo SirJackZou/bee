@@ -8,10 +8,10 @@ import '@/locale';
 import 'iview/dist/styles/iview.css';
 import VueI18n from 'vue-i18n';
 import util from './libs/util';
-
 Vue.use(VueI18n);
 Vue.use(iView);
-
+// 引入图表
+import echarts from "echarts"
 new Vue({
     el: '#app',
     router: router,
